@@ -9,7 +9,7 @@ from google.cloud import bigquery
 JOURNEYS_API_KEY = "YOUR_JOURNEYS_API_KEY"
 JOURNEYS_API_ENDPOINT = "YOUR_JOURNEYS_API_ENDPOINT"
 
-# Gemini API Key (from environment variable)
+# Gemini API Key
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 if GEMINI_API_KEY is None:
     raise ValueError(
