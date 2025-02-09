@@ -6,7 +6,6 @@ import google.generativeai as genai
 from google.cloud import bigquery
 
 # --- Configuration ---
-# Journeys API (REPLACE WITH YOUR ACTUAL VALUES)
 JOURNEYS_API_KEY = "YOUR_JOURNEYS_API_KEY"
 JOURNEYS_API_ENDPOINT = "YOUR_JOURNEYS_API_ENDPOINT"
 
