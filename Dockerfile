@@ -6,11 +6,7 @@ ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY . ./
 
-COPY key.json /tmp/key.json  # -- TEMPORARY
-
-```dockerfile
-COPY key.json /tmp/key.json
-```
+COPY key.json /tmp/key.json  # ADDED THIS LINE -- TEMPORARY
 
 # Install production dependencies.
 RUN pip install --no-cache-dir -r requirements.txt
