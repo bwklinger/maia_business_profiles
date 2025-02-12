@@ -8,6 +8,10 @@ COPY . ./
 
 COPY key.json /tmp/key.json  # -- TEMPORARY
 
+```dockerfile
+COPY key.json /tmp/key.json
+```
+
 # Install production dependencies.
 RUN pip install --no-cache-dir -r requirements.txt
 
