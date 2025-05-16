@@ -1,5 +1,4 @@
 google-cloud-bigquery
 google-generativeai
 requests
-gunicorn
 python-dotenv
